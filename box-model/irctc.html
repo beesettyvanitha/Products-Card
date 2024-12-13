@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC</title>
+    <style>
+    
+    .menus{
+            width:100%;
+            height:100px;
+            display:flex;
+            background-color: lightsteelblue;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  */
+        }
+
+      .menu{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(19, 19, 65);
+        border: 1px solid white;
+        color: white;
+
+
+       }
+
+       h3{
+        text-align: center;
+       }
+
+       .box1{
+        width:100%;
+        height: 100vh;
+        margin: auto;
+        position: relative;
+        
+       }
+
+       img{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+       }
+
+       .box2{
+        width: 600px;
+        height: 540px; 
+        border: 1px solid black;
+        position: absolute;
+        z-index: 2;
+        margin:  70px;
+        background-color: white;
+
+       }
+
+       .box3{
+        width: 600px;
+        height: 90px;
+        border: 1px solid black;
+        padding: 7px 0px;
+        text-align: center;
+        margin-top: 15px;
+        position: absolute;
+        z-index: 3;
+        background-color: white;
+       }
+
+
+       .button1,.button2{
+        padding: 10px;
+        background-color: rgb(1, 1, 111);
+        color: white;
+        width: 298px;
+        margin-bottom: 10px;
+       }
+
+       h2{
+        text-align: center;
+        margin-bottom: 30px;
+        color: navy;
+       }
+
+       input[type="text"],input[type="date"]{
+        width:250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border-radius: 3px;
+        padding: 10px;
+        border:1px solid grey;
+       }
+
+       input[type="checkbox"]{
+        margin-left: 20px;
+        margin-top: 10px;
+       }
+  
+       .button3{
+        padding: 10px;
+        background-color: orange;
+        color: white;
+        width: 100px;
+        margin:30px 20px;
+        border-radius:7px ;
+        border:1px solid orange;
+       }
+       
+       .button4{
+        padding: 10px ;
+        background-color: orange;
+        width: 220px;
+        margin-top: 30px;
+        margin-left: 220px;
+        border-radius:7px ;
+        border:1px solid orange;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="menus">
+        <div class="menu menu1">LOGIN</button></div>
+        <div class="menu menu2"><h3>REGISTER</button></div>
+        <div class="menu menu3"><h3>AGENT LOGIN</button></div>
+        <div class="menu menu4"><h3>CONTACT US</button></div>
+        <div class="menu menu5"><h3>DAILY DEALS</button></div>
+        <div class="menu menu6"><h3>ALERTS</button></div>
+        <div class="menu menu7"><h3>IRCTC EXCLUSIVE</h3></div>
+        <div class="menu menu8"><h3>TRAINS</h3></div>
+        <div class="menu menu9"><h3>LOYALTY</h3></div>
+        <div class="menu menu10"><h3>IRCTC eWallet</h3></div>
+        <div class="menu menu11"><h3>BUSES</h3></div>
+        <div class="menu menu12"><h3>FLIGHTS</h3></div>
+        <div class="menu menu13"><h3>HOTELS</h3></div>
+        <div class="menu menu14"><h3>HOLIDAYS</h3></div>
+        <div class="menu menu15"><h3>MEALS</h3></div>
+        <div class="menu menu16"><h3>PROMOTIONS</h3></div>
+        <div class="menu menu17"><h3>MORE</h3></div>
+      </div>
+    <div class="box box1">
+        <img src="https://www.financialexpress.com/wp-content/uploads/2023/09/1-250.jpg" alt="train">
+        <div class="box box2">
+         <form>
+            <button class="button button1"> PNR STATUS</button>
+            <button class="button button2">CHARTS / VACANCY</button>
+            
+            <h2>BOOK TICKET</h2>
+            
+            <label style="margin-left: 325px;">MM/DD/YYYY* </label><br>
+            <input type="text" placeholder="From">
+            <input type="date"><br>
+            <input type="text" placeholder="To">
+            <input type="text" placeholder="All Classes"><br>
+            <input type="text" placeholder="GENERAL"><br>
+
+            <input type="checkbox">Person With Disability Concession
+            <input type="checkbox">Flexible with Date<br>
+            <input type="checkbox">Train with Available Berth
+            <input type="checkbox">Railway Pass Concession<br>
+            
+            <button class="button button3"><strong>Search</strong></button>
+           <button class="button button4"><strong> <a href="https://askdisha.irctc.co.in/eticket/" style="text-decoration: none;color: white;">Easy Booking on AskDISHA</a></strong></button>
+        </form>
+        <div class="box box3"><strong><a href="https://www.irctc.com/empanelment.html" style="text-decoration: none;color: rgb(16, 123, 216);">Please click here for Empanelment for PAD items for Catering</a></strong></div>
+        </div>
+    </div>
+</body>
+</html>

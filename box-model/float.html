@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float example</title>
+    <style>
+        .box{
+            width:200px;
+            height:200px;
+        }
+        
+        .box1{
+            background-color: red;
+            /* float: left; */
+            position: relative;
+            /* left: 100px;
+            top:50px; */
+            bottom: 20px;
+
+        }
+
+        .innerbox{
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            position: absolute;
+            bottom: 20px;
+        }
+        .box2{
+            background-color: green;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <div class="box innerbox"></div>
+    </div>
+    <div class="box box2"></div>
+</body>
+</html>

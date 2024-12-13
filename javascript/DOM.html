@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Excercise</title>
+
+</head>
+<body>
+    <div id="container"></div>
+    <button onclick="createParagraph()">Click me</button>
+    <script>
+        function createParagraph()
+        {
+            // just creating js object
+            var para = document.createElement("p");
+            // create a text to add to paragraph
+            var text = document.createTextNode("This is a newly created paragraph.");
+            // add textnode to paragraph
+            para.appendChild(text);
+            
+            // give specific color,background-color,border,padding
+            para.style.backgroundColor = "bisque";
+            para.style.color = "deeppink";
+            para.style.border = "2px solid chocolate";
+            para.style.padding = "10px";
+
+
+            // add para to div
+            var div = document.getElementById("container");
+            div.appendChild(para);
+            // var button = document.getElementsByClassName("exbtn")[2];
+        }
+    </script>
+</body>
+</html>

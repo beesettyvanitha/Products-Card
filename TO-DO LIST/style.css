@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+input{
+    padding: 8px;
+    width: 200px;
+    font-size: medium;
+    border-radius: 6px;
+    border: 2px solid rgb(201, 197, 197);
+}
+
+button{
+    padding: 8px;
+    font-size: medium;
+    background-color: limegreen;
+    color: antiquewhite;
+    border: 0;
+    border-radius: 6px;
+}
+
+ul{
+   text-align: center;
+   list-style-type: none;
+   margin-right: 100px;
+}
+

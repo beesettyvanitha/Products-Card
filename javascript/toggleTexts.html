@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Text</title>
+</head>
+<body>
+    <p id="toggleText">Text 1</p>
+    <button onclick="toggleText()">Toggle Text</button>
+    <script> 
+        function toggleText()
+        {
+            const text = document.getElementById("toggleText");
+            text.textContent = (text.textContent === "Text 1") ? 'Text 2' : 'Text 1'
+        }
+    </script>
+</body>
+</html>

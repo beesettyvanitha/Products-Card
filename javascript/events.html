@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+</style>
+</head>
+<body>
+     <!-- Button click to show alert -->
+    <button id="button" onclick="alert('Button Clicked!')">Click Me</button>
+
+    <!--  change text content on click -->
+    <button id = "button" onclick="changeText()">Click Me</button>
+    <p id="example1">This is some text</p>
+
+    <!--  add Event Listener -->
+    <p id="example3"></p>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function()
+        {
+          document.getElementById("example3").innerHTML = "This text was added using javascript on page load!";
+        });
+
+        function changeText()
+        {
+            var para = document.getElementById('example1');
+            console.log(para);
+            para.innerText = "This is a paragraph text";
+            var btn = document.getElementById('button');
+            console.log(btn);
+            btn.innerHTML = "<em>Italic tag</em>";
+        }
+
+    </script>
+</body>
+</html>

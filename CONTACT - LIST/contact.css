@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+input{
+    padding: 8px;
+    width: 320px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(160, 159, 159);
+}
+
+button{
+    width: 120px;
+    padding: 8px;
+    font-size: medium;
+    background-color: limegreen;
+    color: antiquewhite;
+    border: 0;
+    border-radius: 6px;
+}
+
+div{
+    text-align: left;
+}
+
+table{
+    border: 1px solid black;
+}

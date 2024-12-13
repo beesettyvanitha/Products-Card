@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Cart Flex</title>
+    <style>
+
+       .container{
+            width:100%;
+            height:100%;
+            display:flex;
+            background-color: rgb(201, 255, 255);
+            /* background-color: lightgrey; */
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding:20px 40px;
+            position: relative;
+            background-image: url('https://img.freepik.com/free-psd/marble-product-backdrop-mockup-psd-with-shadow_53876-141760.jpg?w=996&t=st=1726019109~exp=1726019709~hmac=2e42977ce4946f8d7580900a48276d6943d21e55114c414a7b3cad187bfb5d1c');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;    
+        }
+
+       .card{
+        width: 300px;
+        height: 370px;
+        background-color: white;
+        margin:20px 50px;
+       }
+
+       img{
+        width:150px;
+        height: 150px;
+        display: block;
+        margin: 10px auto;
+       }
+
+       h1{
+        text-align: center;
+        margin-bottom: -10px;
+       }
+
+       p{
+        text-align: center;
+        padding-top: 0 8px;
+
+       }
+
+       h2{
+        text-align: center;
+       }
+
+       .button{
+          text-align: center;
+          width: 100%;
+          padding: 15px;
+          border: none;
+          background-color: black;
+          color: white;
+       }
+
+       .button:hover{
+          background-color: rgb(106, 103, 103);
+       }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <!-- <img src="https://img.freepik.com/free-psd/marble-product-backdrop-mockup-psd-with-shadow_53876-141760.jpg?w=996&t=st=1726019109~exp=1726019709~hmac=2e42977ce4946f8d7580900a48276d6943d21e55114c414a7b3cad187bfb5d1c" alt="background"> -->
+    <div class="card card1">
+        <img src="https://m.media-amazon.com/images/I/61pOz503KkL._AC_UF1000,1000_QL80_.jpg" alt="Moisturiser">
+        <h1>Moisturiser</h1>
+        <p>Deeply hydrates and nourishes your skin for <br>a soft, glowing complexion.</p>
+        <h2>$6.70</h2>
+        <button class="button button1"><strong>ADD TO CART</strong></button>
+    </div>
+    <div class="card card2">
+        <img src="https://m.media-amazon.com/images/I/61Q6JfJqNgL.jpg" alt="Mobile">
+        <h1>Hair Oil</h1>
+        <p>Revitalize your hair with natural oils that promote strength, shine, and growth.</p>
+        <h2>$25.00</h2>
+        <button class="button button2"><strong>ADD TO CART</strong></button>
+    </div>
+    <div class="card card3">
+        <img src="https://i.pinimg.com/736x/67/84/b3/6784b31c55cc9237db057ee94744aa11.jpg" alt="Perfume">
+        <h1>Perfume</h1>
+        <p>A captivating fragrance that lingers all day, elevating your everyday elegance.</p>
+        <h2>$70.84</h2>
+        <button class="button button3"><strong>ADD TO CART</strong></button>
+    </div>
+    <div class="card card4">
+        <img src="https://pngimg.com/d/face_powder_PNG76465.png" alt="Face Powder">
+        <h1>Compact Powder</h1>
+        <p>Lightweight face compact powder for a flawless, matte finish.</p>
+        <h2>$10.00</h2>
+        <button class="button button4"><strong>ADD TO CART</strong></button>
+    </div>
+    <div class="card card5">
+        <img src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/CIW/2024/6/19/e4109cb3-6d96-4c6a-9f4f-622b70707dbb_lipbalm_HIVOOV1M18_MN.png" alt="Lipstick">
+        <h1>Lipstick</h1>
+        <p>Long-lasting, vibrant lipstick available in a variety of stunning shades.</p> 
+        <h2>$22.69</h2>
+        <button class="button button5"><strong>ADD TO CART</strong></button>
+    </div>
+    <div class="card card6">
+        <img src="https://onemg.gumlet.io/l_watermark_346,w_690,h_700/a_ignore,w_690,h_700,c_pad,q_auto,f_auto/e10fd938b4fe4ec0aa7148fca82fc7d2.jpg" alt="Serum">
+        <h1>Face Serum</h1>
+        <p>Glow naturally with our nourishing and hydrating face serum.</p>
+        <h2>$15.00</h2>
+        <button class="button button6"><strong>ADD TO CART</strong></button>
+    </div>
+   </div>
+</body>
+</html>

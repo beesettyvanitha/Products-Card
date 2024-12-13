@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseOver Example</title>
+</head>
+<body>
+    <!-- change background color on Mouse Over -->
+    <p id="example2" onmouseover ="changeColor()" onmouseout="color()">This is some text</p>
+    <script>
+     function changeColor()
+     {
+        var para1= document.getElementById('example2');
+        para1.style.backgroundColor = "yellow";
+        console.log(para1);
+     }
+
+     function color()
+     {
+        var para1 = document.getElementById('example2');
+        para1.style.backgroundColor = "white";
+        console.log(para1);
+     }
+    </script>
+</body>
+</html>
